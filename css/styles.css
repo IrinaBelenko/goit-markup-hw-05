@@ -152,7 +152,23 @@ button {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--hover-link-color);
+  color: var(--focus-button-color);
+}
+
+.active-menu{
+  position: relative;
+  color: var(--focus-button-color);
+}
+.active-menu::after {
+  content: "";
+  background: var(--focus-button-color);
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
 /*contacts*/
