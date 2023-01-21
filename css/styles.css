@@ -148,6 +148,7 @@ button {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color var(--transition-timing);
 }
 
 .menu-link:hover,
@@ -189,6 +190,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  transition: color var(--transition-timing);
 }
 .email:hover,
 .email:focus,
@@ -237,6 +239,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  transition: background var(--transition-timing), box-shadow var(--transition-timing);
 }
 
 .modal-button:hover,
